@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Michroma&display=swap');
+
+*{   font-family: 'Italiana', serif;
+ 
+}
+
+
+body { background-image: url("recursos/fondo4.jpg");
+    margin: 50px;
+    background-attachment: scroll;
+    background-size:contain;
+    
+
+}
+
+#encabezado{
+
+    text-align: center;
+    background-color: rgba(26, 87, 119, 1);
+    background-size: cover;
+    margin: -60px;
+   
+    
+}
+
+.imagen {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width:cover;
+    height: cover;
+
+}
+
+
+.contenido {
+    display: flex; 
+    flex-direction:row; 
+    padding-top: 15%;
+    font-size: 25px;
+   
+}
+
+#contexto {
+    color:#FFFFFF;
+    padding-right: 70px;
+  
+}
+
+
+
+.clave{
+
+    color:#FFFFFF;
+    padding-top: 40%;
+    padding-bottom: 10%;
+    font-size: 20px;
+    
+
+}
+
+
+.cajaA{
+   
+    background-color: white;
+    width: 70px;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    
+    <!-- me falto poner las letras en otro color-->
+
+}
+
+
+.interaccion{
+    display: flex; 
+    flex-direction:row;
+    justify-content: center;
+    
+
+
+  
+
+}
+
+.interaccion h2{
+
+    text-align: justify,center;
+    font-size: 15px;
+    color: #FFFFFF;
+    
+
+
+}
+
+.caja1 , .caja2{
+
+
+
+}
+
+
+.botones {
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 15%;
+    
+}
+
+.boton{
+
+  background-color : transparent;
+  border: none;
+ 
+ 
+
+}
+
+.imagenboton{
+
+  width:100px; 
+  height: 90px
+
+}
