@@ -1,98 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primer curso</title>
-    <link rel="stylesheet" href="estilos.css">
-    
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Primer curso</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <!--este es el encabezado-->
 
-     <!--este es el encabezado-->
+  <head>
+    <h1 id="encabezado"><img src="recursos/titulo.png" class="imagen" /></h1>
+  </head>
 
-     <head>
+  <section class="contenido">
+    <div id="contexto">
+      <p>
+        Cifrar significa codificar. El cifrado César es uno de los primeros
+        métodos de cifrado conocidos. El emperador romano Julio César lo usaba
+        para enviar órdenes secretas a sus generales en los campos de batalla.
+      </p>
 
-     <h1 id = "encabezado"><img src="recursos/titulo.png" class="imagen"></h1>
+      <p>
+        Cifrado césar es una de las técnicas más simples para cifrar un
+        mensaje. Es un tipo de cifrado por sustitución, es decir que cada
+        letra del texto original es reemplazada por otra que se encuentra un
+        número fijo de posiciones (desplazamiento) más adelante en el mismo
+      </p>
+    </div>
 
-     </head>
+    <div id="visual">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ttqI7EFW3Mk" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </section>
 
-     
-     <section class="contenido">
+  <!--ingreso de clave-->
+  <section class="clave">
+    <h2>Ahora te toca intentar a ti</h2>
+    <p>
+      Ingresa un número en el apartado "clave", para indicar en cuantos
+      espacios quieres que sea cifrado tu mensaje
+    </p>
 
-     <div id= "contexto">
-       <p> Cifrar significa codificar. El cifrado César es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla. </p>
-       
-        <p> Cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo </p>
-      </div>  
+    <input type="number" id="offset" class="cajaA" placeholder="clave" />
+  </section>
 
-      <div id= "visual">
-       
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/WHKhXBc0log" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-     </div>
+  <!--input de cifrado y descifrado-->
 
-     </section>
+  <section class="interaccion">
+    <div id="cuadro1">
+      <h2>INGRESA TU MENSAJE</h2>
 
+      <textarea id="mensaje1" class="caja1" cols="50" rows="15"></textarea>
+    </div>
 
-     <!--ingreso de clave-->
-     <section class= "clave">
+    <div id="cuadro2">
+      <h2>MENSAJE CIFRADO</h2>
 
-       <h2>Ahora te toca intentar a ti</h2>
-       <p>Ingresa un número en el espacio de "clave", para indicar en cuantos espacios quieres que sea cifrado tu mensaje</p>
+      <textarea id="mensaje2" class="caja2" cols="50" rows="15"></textarea>
+    </div>
+  </section>
 
-       <input type="number" class="cajaA" id='offset' placeholder="clave"> 
-      
-      
-     </section>
+  <!--Sección botones-->
 
-<!--input de cifrado y descifrado-->
-      
- <section class="interaccion">
+  <div class="container">
+    <button class="boton" id="codificar">
+      <img src="recursos/boton 1.png" class="imagenboton" />
+    </button>
+    <button class="boton" id="decodificar">
+      <img src="recursos/boton 2.png" class="imagenboton" />
+    </button>
+    <button class="boton" id="limpiar">
+      <img src="recursos/boton 3.png" class="imagenboton" />
+    </button>
+  </div>
 
-        <div id="cuadro1">
-        <h2>INGRESA TU MENSAJE</h2>
-        <textarea id="mensaje1"  class= "caja1"  placeholder="Mensaje"></textarea>
-       
-        </div>
-      
-        <div id="cuadro2">
-          <h2>MENSAJE CIFRADO</h2>
-          <textarea name="text" class="caja2" id="mensaje2" placeholder="Cifrado" ></textarea>
+  <footer class="pie"></footer>
 
-        </div>
-
- </section> 
-
-   
-
-       <!--Sección botones-->
-
-      <section class=" botones">
-        
-
-        <button id="codificar" class= "boton"><img src="recursos/boton 1.png"  class="imagenboton"></button>
-        <button id="decodificar" class= "boton"><img src="recursos/boton 2.png"  class="imagenboton"></button>
-        <button id="limpiar" class= "boton"><img src="recursos/boton 3.png" class="imagenboton"></button>
-
-        
-
-      </section>
-
-       
-
-      <footer class="pie">
-
-      "aqui va algo"
-
-      </footer>
-
-
-    <script type= "text/javascript"  src = "app.js" >
-
-    
-    </script>
-
+  <script src="index.js" type="module"></script>
 </body>
+
 </html>
