@@ -1,7 +1,7 @@
 
-Cifrado César
 
-README.md
+# Cifrado César
+
 
 Proceso y decisiones de diseño.
 
@@ -21,10 +21,22 @@ Cómo el producto soluciona los problemas/necesidades de los usuarios.
 
 Dentro de la malla curricular de Historia, específicamente en el nivel de 7°, se estudia la civilización romana, por lo que nuestra página busca ser un material de apoyo para el desarrollo de esta unidad al tratar de un tema que surge en este contexto (el cifrado César), permitiendo a los estudiantes poder vincular los contenidos con un ejercicio práctico, ayudando al desarrollo del conocimiento significativo.
 
-Prototipos y bocetos en el siguiente link de figma: https://www.figma.com/file/g2ZFvNaqIEgtfcdIzuHxxj/Cipher-Caesar?node-id=36%3A23
+## Prototipos :computer:
+
+Primer prototipo
+
+![titulo](https://user-images.githubusercontent.com/89401942/135269513-1b8537b3-1b72-4563-8fdf-38fad54d75a4.png)
+
+Segundo prototipo
+
+![image](https://user-images.githubusercontent.com/89401942/135270066-8b3d2f2e-b00d-45b5-98c2-4237402ab01a.png)
+
+Tercer Prototipo
+
+![image](https://user-images.githubusercontent.com/89401942/135270099-e06d3d5b-e52d-43cb-a260-5c7f5d294793.png)
 
 
-link a Página: 
+# link de página: 
 
 
 
