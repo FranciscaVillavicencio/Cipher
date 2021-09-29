@@ -1,7 +1,5 @@
 import cipher from "./cipher.js";
 
-console.log(cipher);
-
 //función para que todas las letras ingresadas sean mayusculas//
 
 document.getElementById("mensaje1").addEventListener("keyup", function () {
@@ -9,7 +7,6 @@ document.getElementById("mensaje1").addEventListener("keyup", function () {
 });
 
 //funcion de los botones//
-
 
 document.getElementById("codificar").addEventListener("click", () => {
   let texto = document.getElementById("mensaje1").value;
@@ -31,6 +28,10 @@ document.getElementById("decodificar").addEventListener("click", () => {
 
 //agregar funcion para borrar input//
 
+
 document.getElementById("limpiar").addEventListener("click", () => {
-  alert("hellou");
+    document.getElementById("offset").value = 0;
+    document.getElementById("mensaje1").value = "";
+    document.getElementById("mensaje2").value = "";
+  
 });
